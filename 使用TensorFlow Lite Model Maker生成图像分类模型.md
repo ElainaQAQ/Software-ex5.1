@@ -11,7 +11,7 @@
 !/content/tflite_env/bin/pip --version
 ```
 
-![](C:\Users\Lenovo\Pictures\Saved Pictures\1.png)
+![](1.png)
 
 ```
 ! /content/tflite_env/bin/pip install -q \
@@ -32,25 +32,25 @@
 
 ```
 
-![](C:\Users\Lenovo\Pictures\Saved Pictures\2.png)
+![](2.png)
 
 ```
 ! /content/tflite_env/bin/pip install tflite-model-maker==0.4.2
 ```
 
-![](C:\Users\Lenovo\Pictures\Saved Pictures\3.png)
+![](3.png)
 
 ```
 ! /content/tflite_env/bin/pip install matplotlib_inline IPython
 ```
 
-![](C:\Users\Lenovo\Pictures\Saved Pictures\4.png)
+![](4.png)
 
 ```
 ! /content/tflite_env/bin/python -c "from tflite_model_maker import image_classifier; print('TFLite Model Maker 已成功导入')"
 ```
 
-![](C:\Users\Lenovo\Pictures\Saved Pictures\5.png)
+![](5.png)
 
 ```python
 # step_train.py
@@ -78,7 +78,7 @@ model.export(export_dir='.')
 
 ```
 
-![](C:\Users\Lenovo\Pictures\Saved Pictures\6.png)
+![](6.png)
 
 ```
 from google.colab import files
